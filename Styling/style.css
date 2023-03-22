@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*, *:after, *:before {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(209, 209, 209);
+    gap: 60px;
+}
+
+.main-heading {
+    text-align: center;
+    font-size: 2.6rem;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(43, 43, 43);
+    padding: 20px;
+}
+
+.set {
+    text-align: center;
+    font-size: 2rem;
+    background-color: #be222d;
+    width: 50%;
+    margin: 50px auto;
+    border-radius: 10px;
+    /* background-color: rgb(43, 43, 43);
+    border-radius: 10px; */
+    padding: 20px;
+}
+
+.set h1 {
+    color:rgb(255, 255, 255);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+h3 {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    line-height: 1.5em;
+    font-weight: 500;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 50%;
+    width: 50%;
+    min-width: 30%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.card .c-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(43, 43, 43);
+}
+
+.card .c-head h2 {
+    font-size: 2rem;
+}
+
+.card .c-head h2,h3 {
+    color: rgb(255, 255, 255);
+    line-height: 1.5em;
+    font-weight: 500;
+}
+
+.card .c-head h3 {
+    font-size: 1.1rem;
+    color: rgb(255, 255, 255);
+    line-height: 1.5em;
+    font-weight: 500;
+}
+
+.card .c-bod {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    width: 100%;
+    padding: 60px 60px;
+}
+
+.card .c-bod img{
+    width: 350px;
+    height: auto;
+}
+
+.card .c-foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: rgb(43, 43, 43);
+    padding: 20px 25px;
+}
+
+.card .c-foot p {
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+
+/* .card.five .c-bod img {
+    min-width: 350px;
+    height: auto;
+} */
+
+.card.nine {
+    margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 768px) {
+    .set h1 {
+        color:rgb(255, 255, 255);
+        font-size: 2rem;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 80%;
+        min-width: 80%;
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+    }
+
+    .set {
+        text-align: center;
+        font-size: 2rem;
+        background-color: #be222d;
+        width: 80%;
+        margin: 50px auto;
+        border-radius: 10px;
+        /* background-color: rgb(43, 43, 43);
+        border-radius: 10px; */
+        padding: 20px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .set h1 {
+        color:rgb(255, 255, 255);
+        font-size: 2rem;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 70%;
+        min-width: 70%;
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+    }
+
+    .set {
+        text-align: center;
+        font-size: 2rem;
+        background-color: #be222d;
+        width: 70%;
+        margin: 50px auto;
+        border-radius: 10px;
+        /* background-color: rgb(43, 43, 43);
+        border-radius: 10px; */
+        padding: 20px;
+    }
+}
